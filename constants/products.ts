@@ -2,30 +2,27 @@ import { Product } from "@/types";
 
 export const PRODUCTS: Product[] = [
   {
-    id: "highland-honey-balm",
-    name: "Highland Honey Balm",
-    category: "Balms",
+    id: "bath-oil",
+    name: "Bath Oil",
+    category: "Oil",
     price: "£24.00",
-    image:
-      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=900&auto=format&fit=crop",
-    alt: "Honey beeswax hand balm in an amber jar",
+    image: "/images/bathoil.webp",
+    alt: "Bath oil bottle",
   },
   {
-    id: "oatmeal-honey-bar",
-    name: "Oatmeal & Honey Bar",
-    category: "Soaps",
+    id: "chamomile-baby-lotion",
+    name: "Chamomile Baby Lotion",
+    category: "Lotion",
     price: "£12.00",
-    image:
-      "https://images.unsplash.com/photo-1600857062241-98e5dba7f214?q=80&w=900&auto=format&fit=crop",
-    alt: "Handmade oatmeal and honey soap bar",
+    image: "/images/Chamomile+Baby+Lotion.webp",
+    alt: "Chamomile baby lotion bottle",
   },
   {
-    id: "croft-beeswax-candle",
-    name: "Croft Beeswax Candle",
-    category: "Candles",
+    id: "original-lotion-bar",
+    name: "Original Lotion Bar",
+    category: "Bars",
     price: "£19.00",
-    image:
-      "https://images.unsplash.com/photo-1602523961358-f9f03dd557db?q=80&w=900&auto=format&fit=crop",
-    alt: "Beeswax candle burning warmly",
+    image: "/images/originallotionbarhandmade.webp",
+    alt: "Handmade original beeswax lotion bar",
   },
 ];
