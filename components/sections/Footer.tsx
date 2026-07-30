@@ -38,7 +38,7 @@ export default function Footer() {
         </div>
         <div className="flex justify-between border-t border-cream/10 pt-8 text-[.8rem] text-cream/50 flex-wrap gap-3.5">
           <span>© 2026 Beeswax Scotland. All rights reserved.</span>
-          <span>Visa · Mastercard · Shop Pay · Klarna</span>
+          <span>Design and Develop by <a href="http://mukeshdevtech.com/">MukeshDev Tech</a></span>
         </div>
       </div>
     </footer>
