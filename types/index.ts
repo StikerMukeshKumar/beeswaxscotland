@@ -1,7 +1,7 @@
 export interface Product {
   id: string;
   name: string;
-  category: string;
+  category: "Balms" | "Soaps" | "Candles";
   price: string;
   image: string;
   alt: string;
